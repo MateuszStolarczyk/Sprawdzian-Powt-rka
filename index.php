@@ -18,7 +18,7 @@
         $file = fopen("odwiedziny.txt", "w");
         fwrite($file, "Odwiedziłeś strone: $licznik razy");
         fclose($file);
-        echo "Odwiedziłeś strone: $licznik razy";
+        echo "Odwiedziłeś strone: $licznik razy!";
     ?>
 </body>
 </html>
